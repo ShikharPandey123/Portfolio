@@ -150,7 +150,7 @@ export const experiences = [
     img: Indibus,
     role: "Frontend Intern",
     company: "Indibus Software Solutions Pvt. Ltd.",
-    date: "September 2021 - August 2022",
+    date: "April 2025 - July 2025",
     desc: `Built a full-stack job application platform using the MERN stack with JWT-based authentication and
 role-based access for users and admins, reduced unauthorized access by 90% and improved data integrity by
 95%.
