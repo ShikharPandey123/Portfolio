@@ -34,8 +34,8 @@ import postgreLogo from "./assets/tech_logo/postgre.png";
 // import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-// import InfoTEchBrains from './assets/company_logo/info_tech_logo.png';
-// import OneAim from './assets/company_logo/one_aim_logo.png';
+import InfoTEchBrains from './assets/company_logo/info_tech_logo.png';
+import OneAim from './assets/company_logo/one_aim_logo.png';
 import Indibus from "./assets/company_logo/indibus_logo.png";
 
 // Education Section Logo's
@@ -111,40 +111,40 @@ export const SkillsInfo = [
 ];
 
 export const experiences = [
-  // {
-  //   id: 0,
-  //   img: InfoTEchBrains,
-  //   role: "Fullstack Developer",
-  //   company: "InfoTechBrains CloudTech Pvt. Ltd.",
-  //   date: "July 2025 - Present",
-  //   desc: "Developed a scalable Jain community super app using Next.js, TypeScript, Prisma ORM, and PostgreSQL, supporting over 500 users, 50+ events, and a dynamic leaderboard system. Designed and optimized REST APIs, database schemas, and role-based access controls, improving response times by 35% and reducing server errors by 40%. Implemented CI/CD pipelines on Vercel, participated in agile sprints, and contributed to team code reviews, achieving 99.9% deployment uptime.",
-  //   skills: [
-  //     "Next JS",
-  //     "React JS",
-  //     "TypeScript",
-  //     "Node JS",
-  //     "Tailwind CSS",
-  //     "MongoDB",
-  //     "Prisma ORM",
-  //     "PostgreSQL",
-  //   ],
-  // },
-  // {
-  //   id: 1,
-  //   img: OneAim,
-  //   role: "Fullstack Developer Intern",
-  //   company: "One Aim IT solutions Pvt. Ltd.",
-  //   date: "July 2023 - March 2024",
-  //   desc: "Led the architecture and deployment of a role-based HRMS dashboard using Next.js, TypeScript, and TailwindCSS, reducing load time by 30% and improving team output by 40%. Refactored over 2,000 lines of legacy JavaScript into reusable, testable TypeScript modules. Implemented dynamic imports and code splitting, reducing bundle size by 35%.",
-  //   skills: [
-  //     "Next JS",
-  //     "ReactJS",
-  //     "TypeScript",
-  //     "Tailwind CSS",
-  //     "ShadcnUI",
-  //     "MongoDB"
-  //   ],
-  // },
+  {
+    id: 0,
+    img: InfoTEchBrains,
+    role: "Fullstack Developer",
+    company: "InfoTechBrains CloudTech Pvt. Ltd.",
+    date: "July 2025 - Present",
+    desc: "Developed a scalable Jain community super app using Next.js, TypeScript, Prisma ORM, and PostgreSQL, supporting over 500 users, 50+ events, and a dynamic leaderboard system. Designed and optimized REST APIs, database schemas, and role-based access controls, improving response times by 35% and reducing server errors by 40%. Implemented CI/CD pipelines on Vercel, participated in agile sprints, and contributed to team code reviews, achieving 99.9% deployment uptime.",
+    skills: [
+      "Next JS",
+      "React JS",
+      "TypeScript",
+      "Node JS",
+      "Tailwind CSS",
+      "MongoDB",
+      "Prisma ORM",
+      "PostgreSQL",
+    ],
+  },
+  {
+    id: 1,
+    img: OneAim,
+    role: "Fullstack Developer Intern",
+    company: "One Aim IT solutions Pvt. Ltd.",
+    date: "July 2023 - March 2024",
+    desc: "Led the architecture and deployment of a role-based HRMS dashboard using Next.js, TypeScript, and TailwindCSS, reducing load time by 30% and improving team output by 40%. Refactored over 2,000 lines of legacy JavaScript into reusable, testable TypeScript modules. Implemented dynamic imports and code splitting, reducing bundle size by 35%.",
+    skills: [
+      "Next JS",
+      "ReactJS",
+      "TypeScript",
+      "Tailwind CSS",
+      "ShadcnUI",
+      "MongoDB"
+    ],
+  },
   {
     id: 2,
     img: Indibus,
