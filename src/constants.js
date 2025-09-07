@@ -52,6 +52,7 @@ import commitly from "./assets/work_logo/commitly.png";
 import food_order from "./assets/work_logo/food_order.png";
 import streamify from "./assets/work_logo/streamify.png";
 import job_portal from "./assets/work_logo/job_portal.png";
+import ai_medical from "./assets/work_logo/ai_medical.png";
 
 export const SkillsInfo = [
   {
@@ -278,26 +279,29 @@ export const projects = [
     github: "https://github.com/ShikharPandey123/Food-Order-Web-App.git",
     webapp: "https://food-order-web-app-pi.vercel.app",
   },
-  // {
-  //   id: 4,
-  //   title: "Task Reminder Chrome Extension Tool",
-  //   description:
-  //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-  //   image: taskremLogo,
-  //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-  //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-  //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Webverse Digital",
-  //   description:
-  //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-  //   image: webverLogo,
-  //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-  //   github: "https://github.com/codingmastr/Webverse-Digital",
-  //   webapp: "https://webversedigital.com/",
-  // },
+  {
+  id: 4,
+  title: "MediCare Pro: AI-Powered Medical Management System",
+  description:
+    "MediCare Pro is a comprehensive AI-powered medical management system built with Next.js 15, TypeScript, Node.js, and PostgreSQL, designed to streamline healthcare workflows and enhance patient care. It features secure doctor authentication, comprehensive patient management, consultation tracking, AI-powered audio transcription using OpenAI Whisper, intelligent summarization of medical consultations, automated clinical note generation, and medical report creation. The platform includes real-time dashboards, visit management, audio processing with FFmpeg, AWS S3 file storage, and a modern responsive healthcare UI built with shadcn/ui and Radix components. With premium OpenAI integration for transcription and summarization, the system enables efficient medical documentation, enhanced patient care workflows, and intelligent healthcare insights.",
+  image: ai_medical,
+  tags: [
+    "TypeScript",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "Sequelize",
+    "OpenAI Whisper",
+    "OpenAI GPT",
+    "FFmpeg",
+    "AWS S3",
+    "Tailwind CSS",
+    "shadcn/ui"
+  ],
+  github: "https://github.com/ShikharPandey123/ai-medical-frontend.git",
+  webapp: "https://saramedico.com",
+}
   // {
   //   id: 6,
   //   title: "Coding Master",
