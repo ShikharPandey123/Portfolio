@@ -36,7 +36,7 @@ import postgreLogo from "./assets/tech_logo/postgre.png";
 // Experience Section Logo's
 import InfoTEchBrains from './assets/company_logo/info_tech_logo.png';
 import OneAim from './assets/company_logo/one_aim_logo.png';
-import Indibus from "./assets/company_logo/indibus_logo.png";
+// import Indibus from "./assets/company_logo/indibus_logo.png";
 
 // Education Section Logo's
 import akgecLogo from "./assets/education_logo/akgec_logo.png";
@@ -110,7 +110,7 @@ export const experiences = [
     img: InfoTEchBrains,
     role: "Fullstack Developer",
     company: "InfoTechBrains CloudTech Pvt. Ltd.",
-    date: "July 2025 - Present",
+    date: "July 2025 - August 2025",
     desc: "Developed a scalable Jain community super app using Next.js, TypeScript, Prisma ORM, and PostgreSQL, supporting over 500 users, 50+ events, and a dynamic leaderboard system. Designed and optimized REST APIs, database schemas, and role-based access controls, improving response times by 35% and reducing server errors by 40%. Implemented CI/CD pipelines on Vercel, participated in agile sprints, and contributed to team code reviews, achieving 99.9% deployment uptime.",
     skills: [
       "Next JS",
@@ -128,7 +128,7 @@ export const experiences = [
     img: OneAim,
     role: "Fullstack Developer Intern",
     company: "One Aim IT solutions Pvt. Ltd.",
-    date: "July 2023 - March 2024",
+    date: "April 2025 - July 2025",
     desc: "Led the architecture and deployment of a role-based HRMS dashboard using Next.js, TypeScript, and TailwindCSS, reducing load time by 30% and improving team output by 40%. Refactored over 2,000 lines of legacy JavaScript into reusable, testable TypeScript modules. Implemented dynamic imports and code splitting, reducing bundle size by 35%.",
     skills: [
       "Next JS",
@@ -139,28 +139,28 @@ export const experiences = [
       "MongoDB"
     ],
   },
-  {
-    id: 2,
-    img: Indibus,
-    role: "Frontend Intern",
-    company: "Indibus Software Solutions Pvt. Ltd.",
-    date: "April 2025 - July 2025",
-    desc: `Built a full-stack job application platform using the MERN stack with JWT-based authentication and
-role-based access for users and admins, reduced unauthorized access by 90% and improved data integrity by
-95%.
-• Developed dynamic resume upload via Multer and integrated 10+ RESTful API routes, enabling
-end-to-end job applications and reducing admin processing time by 85%.
-• Deployed frontend on Vercel and backend on Render, achieving 99.9% uptime and supporting concurrent
-traffic of 50+ users, optimized frontend performance with Vite, Axios, and React Router.`,
-    skills: [
-      "Next JS",
-      "ReactJS",
-      "TypeScript",
-      "Tailwind CSS",
-      "ShadcnUI",
-      "MongoDB",
-    ],
-  },
+//   {
+//     id: 2,
+//     img: Indibus,
+//     role: "Frontend Intern",
+//     company: "Indibus Software Solutions Pvt. Ltd.",
+//     date: "April 2025 - July 2025",
+//     desc: `Built a full-stack job application platform using the MERN stack with JWT-based authentication and
+// role-based access for users and admins, reduced unauthorized access by 90% and improved data integrity by
+// 95%.
+// • Developed dynamic resume upload via Multer and integrated 10+ RESTful API routes, enabling
+// end-to-end job applications and reducing admin processing time by 85%.
+// • Deployed frontend on Vercel and backend on Render, achieving 99.9% uptime and supporting concurrent
+// traffic of 50+ users, optimized frontend performance with Vite, Axios, and React Router.`,
+//     skills: [
+//       "Next JS",
+//       "ReactJS",
+//       "TypeScript",
+//       "Tailwind CSS",
+//       "ShadcnUI",
+//       "MongoDB",
+//     ],
+//   },
 ];
 
 export const education = [
