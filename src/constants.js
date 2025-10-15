@@ -128,7 +128,7 @@ export const experiences = [
     img: OneAim,
     role: "Fullstack Developer Intern",
     company: "One Aim IT solutions Pvt. Ltd.",
-    date: "April 2025 - July 2025",
+    date: "June 2025 - September 2025",
     desc: "Led the architecture and deployment of a role-based HRMS dashboard using Next.js, TypeScript, and TailwindCSS, reducing load time by 30% and improving team output by 40%. Refactored over 2,000 lines of legacy JavaScript into reusable, testable TypeScript modules. Implemented dynamic imports and code splitting, reducing bundle size by 35%.",
     skills: [
       "Next JS",
